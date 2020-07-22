@@ -6,10 +6,6 @@
     Public Rectangle As Rectangle '物理位置
     Public Focused As Boolean
 
-    Dim FrontBrush As New SolidBrush(Color.Black)
-    Dim BackBrush As New SolidBrush(Color.White)
-
-
     '■コンストラクタ
     ''' <summary>論理位置を指定してセルを作成します。</summary>
     ''' <param name="Grid">セルが属するグリッドを指定します。</param>
@@ -30,6 +26,9 @@
         Me.Rectangle = Rect
     End Sub
 
+
+    Dim FrontBrush As New SolidBrush(Color.Black)
+    Dim BackBrush As New SolidBrush(Color.White)
     '■Draw
     ''' <summary>現在の状態を描画します。</summary>
     ''' <param name="g">描画対象のGraphicsオブジェクトを指定します。</param>

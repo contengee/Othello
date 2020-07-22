@@ -3,7 +3,7 @@
     Dim WithEvents Grid As New ReverseGrid
     Dim Turn As CellStatus = CellStatus.Black '今どっちの順番か
     Dim PlayerColor As CellStatus = CellStatus.Black 'プレイヤーの色
-    Dim Computer As New Computer3(Grid, CellStatus.White)
+    Dim Computer As New CpuLevel3(Grid, CellStatus.White)
 
 
     '■Start
@@ -141,7 +141,7 @@
             System.Threading.Thread.Sleep(500)
 
             'コンピュータに石を置かせる。どのセルに置くかはコンピュータ(AI)が決定する。
-            Computer.Put()
+            Computer.PutStone()
             ChangeTurn() 'プレイヤーの番へ
         End If
 

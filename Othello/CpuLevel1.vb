@@ -1,7 +1,7 @@
-﻿Public Class Computer1
+﻿Public Class CpuLevel1
 
-    Dim Grid As ReverseGrid
     Public Standard As CellStatus
+    Dim Grid As ReverseGrid
 
     Public Sub New(ByVal Grid As ReverseGrid, ByVal Standard As CellStatus)
 
@@ -10,7 +10,7 @@
 
     End Sub
 
-    Public Sub Put()
+    Public Sub PutStone()
 
         Dim X As Integer
         Dim Y As Integer

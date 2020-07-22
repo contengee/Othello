@@ -74,10 +74,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cell.vb" />
-    <Compile Include="Computer3.vb" />
-    <Compile Include="Computer2.vb" />
-    <Compile Include="Computer1.vb" />
     <Compile Include="Constants.vb" />
+    <Compile Include="CpuLevel1.vb" />
+    <Compile Include="CpuLevel2.vb" />
+    <Compile Include="CpuLevel3.vb" />
     <Compile Include="ReverseGrid.vb" />
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
